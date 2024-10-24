@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <title>Pousada House Mariona</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">House Mariona</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#quartos">Quartos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#proximidades">Proximidades</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Banner -->
+    <div class="jumbotron text-center">
+        <h1>Pousada House Mariona</h1>
+        <p>Um lugar acolhedor em Caminha, Portugal</p>
+    </div>
+
+    <!-- Descrição -->
+    <div class="container">
+        <h2>Descrição da Pousada</h2>
+        <p>A Pousada House Mariona está situada em Caminha e oferece um ambiente acolhedor com um jardim, salão partilhado, terraço e acesso Wi-Fi gratuito em toda a propriedade. Contamos com uma cozinha partilhada e comodidades para churrascos. Nossos funcionários estão à disposição para providenciar transfers do aeroporto.</p>
+        <p>Os quartos dispõem de casa de banho partilhada, e alguns contam com cozinha equipada. A proximidade de praias como a Praia das Pedras Ruivas (2,3 km) e a Praia do Codesal (2,6 km) faz da nossa pousada um ótimo local para relaxar e aproveitar a natureza.</p>
+    </div>
+
+    <!-- Comodidades -->
+    <div class="container" id="comodidades">
+        <h2>Principais Comodidades</h2>
+    <div class="comodidades">
+        <div>
+            <h3>Geral</h3>
+            <ul>
+                <li>Transfer (aeroporto)</li>
+                <li>Estacionamento gratuito</li>
+                <li>Acesso Wi-Fi gratuito por todo o hotel</li>
+                <li>Proibido fumar em todas as áreas</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Casa de banho</h3>
+            <ul>
+                <li>Papel higiénico</li>
+                <li>Toalhas</li>
+                <li>Bidé</li>
+                <li>WC</li>
+                <li>Casa de banho partilhada</li>
+                <li>Duche</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Exterior</h3>
+            <ul>
+                <li>Comodidades para churrascos</li>
+                <li>Terraço</li>
+                <li>Jardim</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Cozinha</h3>
+            <ul>
+                <li>Cozinha partilhada disponível para os hóspedes</li>
+            </ul>
+        </div>
+        <div class="row">
+            <h3 class="col-12">Animais de estimação</h3>
+            <ul>
+                <li>Animais de estimação admitidos (sem custos adicionais)</li>
+            </ul>
+        </div>
+        <div class="row">
+            <h3 class="col-6">Atividades</h3>
+            <ul>
+                <li>Happy hour</li>
+                <li>Rota dos bares</li>
+                <li>Praia nas proximidades</li>
+                <li>Equipamento de badminton</li>
+            </ul>
+        <h3 class="col-6">Estacionamento</h3>
+        <ul>
+            <li>Estacionamento gratuito e público disponível numa localização próxima (carece de reserva)</li>
+        </ul>
+        <h3 class="col-6">Serviços</h3>
+        <ul>
+            <li>Serviço de transporte (custo adicional)</li>
+            <li>Salão/área de televisão partilhados</li>
+            <li>Transfer (aeroporto - custo adicional)</li>
+        </ul>
+        <h3 class="col-6">Idiomas falados</h3>
+        <ul>
+            <li>Inglês</li>
+            <li>Espanhol</li>
+            <li>Português</li>
+        </ul>
+    </div>
+
+    <!-- Quartos -->
+<div class="container" id="quartos">
+    <h2>Tipos de Quarto</h2>
+    <div class="row">
+        <div class="col-md-9">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Tipo de Quarto</th>
+                        <th>Número de Hóspedes</th>
+                        <th>Preço de Hoje</th>
+                        <th>Comodidades</th>
+                        <th>Ação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Quarto Familiar Standard</td>
+                        <td>Máx. 3</td>
+                        <td>€ 63</td>
+                        <td>
+                            1 cama individual e 1 cama de casal <br>
+                            Wi-Fi gratuito <br>
+                            Duche, Bidé, WC, Toalhas, Casa de banho partilhada <br>
+                            Inclui estacionamento, Parcialmente reembolsável
+                        </td>
+                        <td><button class="btn btn-primary select-room" data-room="Familiar Standard" data-price="63">Selecionar</button></td>
+                    </tr>
+                    <tr>
+                        <td>Quarto Triplo Standard</td>
+                        <td>Máx. 3</td>
+                        <td>€ 63</td>
+                        <td>
+                            1 cama individual e 1 cama de casal <br>
+                            Wi-Fi gratuito <br>
+                            Inclui estacionamento, Parcialmente reembolsável
+                        </td>
+                        <td><button class="btn btn-primary select-room" data-room="Triplo Standard" data-price="63">Selecionar</button></td>
+                    </tr>
+                    <tr>
+                        <td>Quarto Duplo Deluxe com Vista Lateral Mar</td>
+                        <td>Máx. 2</td>
+                        <td>€ 32</td>
+                        <td>
+                            1 cama de casal <br>
+                            Wi-Fi gratuito <br>
+                            Inclui estacionamento, Parcialmente reembolsável
+                        </td>
+                        <td><button class="btn btn-primary select-room" data-room="Duplo Deluxe com Vista Lateral Mar" data-price="32">Selecionar</button></td>
+                    </tr>
+                    <tr>
+                        <td>Quarto Duplo Deluxe com Varanda</td>
+                        <td>Máx. 2</td>
+                        <td>€ 42</td>
+                        <td>
+                            1 cama de casal <br>
+                            Wi-Fi gratuito <br>
+                            Inclui estacionamento, Parcialmente reembolsável
+                        </td>
+                        <td><button class="btn btn-primary select-room" data-room="Duplo Deluxe com Varanda" data-price="42">Selecionar</button></td>
+                    </tr>
+                    <tr>
+                        <td>Quarto Duplo Deluxe com Varanda e Vista Mar</td>
+                        <td>Máx. 2</td>
+                        <td>€ 43</td>
+                        <td>
+                            1 cama de casal <br>
+                            Berço disponível mediante pedido <br>
+                            Cozinha privativa, Varanda, Vista rio, Pátio, Televisão de ecrã plano <br>
+                            Inclui estacionamento, Não reembolsável
+                        </td>
+                        <td><button class="btn btn-primary select-room" data-room="Duplo Deluxe com Varanda e Vista Mar" data-price="43">Selecionar</button></td>
+                    </tr>
+                    <tr>
+                        <td>Quarto Individual</td>
+                        <td>Máx. 1</td>
+                        <td>€ 26</td>
+                        <td>
+                            1 cama individual <br>
+                            Berço disponível mediante pedido <br>
+                            Cozinha privativa, Vista rio, Pátio, Terraço, Máquina de café <br>
+                            Inclui check-in antecipado + check-in tardio, Não reembolsável
+                        </td>
+                        <td><button class="btn btn-primary select-room" data-room="Individual" data-price="26">Selecionar</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="col-md-3">
+            <h3>Verifique a Disponibilidade</h3>
+            <div id="selected-room" style="margin-bottom: 10px;"></div>
+            <input type="date" id="check-in" placeholder="Data de Check-in" class="form-control" style="margin-bottom: 10px;" />
+            <input type="date" id="check-out" placeholder="Data de Check-out" class="form-control" style="margin-bottom: 10px;" />
+            <button id="check-availability" class="btn btn-success">Verificar Disponibilidade</button>
+            <div id="availability-result" style="display: none; margin-top: 10px;"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const selectButtons = document.querySelectorAll('.select-room');
+    const selectedRoomDiv = document.getElementById('selected-room');
+    const availabilityResult = document.getElementById('availability-result');
+
+    selectButtons.forEach(button => {
+        button.addEventListener('click', function () {
+            const room = this.getAttribute('data-room');
+            const price = this.getAttribute('data-price');
+
+            selectedRoomDiv.textContent = `Quarto Selecionado: ${room} - Preço: €${price}/noite`;
+            availabilityResult.style.display = 'none'; // Oculta resultado anterior
+        });
+    });
+
+    document.getElementById('check-availability').addEventListener('click', function () {
+        const checkInDate = document.getElementById('check-in').value;
+        const checkOutDate = document.getElementById('check-out').value;
+
+        if (checkInDate && checkOutDate) {
+            availabilityResult.textContent = `Verificando disponibilidade para ${selectedRoomDiv.textContent} de ${checkInDate} a ${checkOutDate}...`;
+            availabilityResult.style.display = 'block';
+            // Aqui você pode adicionar a lógica para verificar a disponibilidade real
+        } else {
+            availabilityResult.textContent = 'Por favor, selecione as datas de check-in e check-out.';
+            availabilityResult.style.display = 'block';
+        }
+    });
+});
+</script>
+
+
+   <!-- Proximidades -->
+<div class="container" id="proximidades">
+    <h2>O que há na proximidade</h2>
+    <div class="comodidades"> <!-- Usando a classe para layout -->
+        <div>
+            <h3>Atrações</h3>
+            <ul>
+                <li>Santa Tecla Celtic Village: 5 km</li>
+                <li>Praia das Pedras Ruivas: 2,3 km</li>
+                <li>Praia do Codesal: 2,6 km</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Restaurantes</h3>
+            <ul>
+                <li>Café/bar Faz de Conta: 50 m</li>
+                <li>Café/bar Café Central: 150 m</li>
+                <li>Restaurante Casa Almeida: 400 m</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Beleza Natural</h3>
+            <ul>
+                <li>Cascata Praia Fluvial das Azenhas - Vilar de Mouros: 6 km</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Transportes Públicos</h3>
+            <ul>
+                <li>Estação de Comboio Caminha: 1,1 km</li>
+                <li>Estação de Comboio Senhora da Agonia: 1,4 km</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<!-- Contatos -->
+<div class="container" id="contactos">
+    <h2>Para mais informações, entre em contato:</h2>
+    <p>
+        <strong>Email:</strong> 
+        <a href="mailto:info@pousadamariona.pt">info@pousadamariona.pt</a>
+    </p>
+    <p>
+        <strong>Telefone:</strong> 
+        <a href="https://wa.me/351123456789" target="_blank">+351 123 456 789</a>
+    </p>
+    <p>
+        <strong>Endereço:</strong> Avenida dos Camões, 09, 4910-102 Caminha, Portugal
+    </p>
+    
+    <!-- Mapa de Localização -->
+<h3>Localização</h3>
+<div style="width: 100%; height: 400px;">
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31424.1410681715!2d-8.767739750098033!3d41.86302282547603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1af1b10f75c55f%3A0x3c3b4a7e9f7a2a2!2sAvenida%20dos%20Cam%C3%B5es%2C%2009%2C%204910-102%20Caminha%2C%20Portugal!5e0!3m2!1sen!2spt!4v1698184477035!5m2!1sen!2spt" 
+        width="60%" 
+        height="80%" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy">
+    </iframe>
+</div>
+
+</div>
+
+
+    <!-- Footer -->
+    <footer class="text-center fixed-bottom">
+        <p class="text-center">&copy; 2024 Pousada House Mariona. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

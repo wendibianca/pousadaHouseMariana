@@ -1,0 +1,139 @@
+/* Estilos gerais */
+body {
+    font-family: 'Georgia', serif; /* Fonte serifada para um toque mais elegante */
+    background-color: #f0f8ff; /* Azul claro */
+    color: #333; /* Texto escuro para contraste */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo da navbar */
+.navbar {
+    background-color: #5f9ea0; /* Azul desbotado */
+}
+
+.navbar .navbar-brand, .navbar .nav-link {
+    color: #070707 !important; /* Branco */
+}
+
+.navbar .nav-link:hover {
+    color: #080808; /* Branco antigo */
+}
+
+/* Jumbotron (banner) */
+.jumbotron {
+    background-color: #add8e6; /* Azul claro */
+    color: #070707;
+    padding: 2rem 1rem;
+}
+
+.jumbotron h1 {
+    font-size: 2.5rem;
+}
+
+.jumbotron p {
+    font-size: 1.2rem;
+}
+
+/* Estilo do container */
+.container {
+    margin: 2rem auto;
+    max-width: 800px; /* Largura máxima para centralizar */
+}
+
+/* Tabela */
+.table {
+    background-color: #fff; /* Fundo branco */
+    border-radius: 8px; /* Bordas arredondadas */
+    overflow: hidden; /* Para manter as bordas arredondadas */
+}
+
+.table th {
+    background-color: #e0ffff; /* Azul pálido */
+}
+
+.table td {
+    padding: 1rem;
+}
+
+/* Botões */
+.btn-primary {
+    background-color: #4682b4; /* Azul médio */
+    border-color: #4682b4; /* Azul médio */
+}
+
+.btn-primary:hover {
+    background-color: #87cefa; /* Azul claro */
+}
+
+/* Texto justificado */
+.container p,
+.container ul {
+    text-align: justify; /* Justifica o texto */
+}
+
+/* Tópicos de comodidades em colunas */
+.comodidades {
+    display: flex;
+    flex-wrap: wrap; /* Permite quebra de linha quando necessário */
+    justify-content: space-between; /* Espaço uniforme entre colunas */
+}
+
+.comodidades ul {
+    list-style-type: none; /* Remove marcadores da lista */
+    padding: 0;
+    margin: 0;
+    flex: 1; /* Toma igual espaço */
+    min-width: 200px; /* Largura mínima para colunas */
+    margin-bottom: 1rem; /* Espaço entre as listas */
+}
+
+.comodidades h3 {
+    color: #4682b4; /* Azul médio */
+    margin-top: 0; /* Remove margens superiores */
+}
+
+/* Botões */
+.btn-primary {
+    background-color: #4682b4; /* Azul médio */
+    border-color: #4682b4; /* Azul médio */
+    font-weight: bold; /* Texto em negrito para destaque */
+}
+
+/* Estilo do footer */
+footer {
+    background-color: #5f9ea0; /* Azul desbotado */
+    color: white;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+/* Ícone do WhatsApp */
+.whatsapp-icon img {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo das seções */
+h2 {
+    color: #4682b4; /* Azul médio */
+}
+
+h3 {
+    color: #6a5acd; /* Azul escuro */
+}
+
+/* Imagem da pousada */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Bordas arredondadas */
+}
